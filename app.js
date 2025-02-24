@@ -1,7 +1,6 @@
 // Dichiarazione variabili
 const tariffa = 0.21
-let età
+let totale
 
-console.log(tariffa)
-console.log('Inserisci i km da percorrere:')
-let km = prompt();
+const km = prompt('Inserisci i km da percorrere:');
+totale = km * tariffa
